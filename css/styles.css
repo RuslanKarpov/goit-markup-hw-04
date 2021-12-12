@@ -224,16 +224,16 @@ ul {
   background-color: var(--backing-color);
 }
 .feature-item:nth-child(1)::before {
-  background-image: url(../images/features-images/Vector1.png);
+  background-image: url(../images/features-images/Vector1.svg);
 }
 .feature-item:nth-child(2)::before {
-  background-image: url(../images/features-images/Vector2.png);
+  background-image: url(../images/features-images/Vector2.svg);
 }
 .feature-item:nth-child(3)::before {
-  background-image: url(../images/features-images/Vector3.png);
+  background-image: url(../images/features-images/Vector2.svg);
 }
 .feature-item:nth-child(4)::before {
-  background-image: url(../images/features-images/Vector4.png);
+  background-image: url(../images/features-images/Vector4.svg);
 }
 /* About us */
 .about-us-section {
