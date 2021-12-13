@@ -65,22 +65,28 @@ ul {
   /* justify-content: space-between; */
   background-color: var(--accent-color-text);
 }
+.nav-logo {
+  margin-right: 93px;
+}
 .site-nav {
   display: flex;
 }
 .site-nav .nav-item + .nav-item {
   margin-left: 40px;
 }
-.logo-first {
+.nav-logo {
+  margin-right: 93px;
+  text-decoration: none;
+}
+.logo-web {
   font-family: Raleway, sans-serif;
   color: var(--accent-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
-.logo-second {
+.logo-studio {
   font-family: Raleway, sans-serif;
   color: var(--titles-text-color-first);
   font-weight: 700;
@@ -93,7 +99,6 @@ ul {
 }
 .site-nav {
   display: flex;
-  margin-left: 93px;
 }
 /* .site-nav .item+ .item{
   margin-left: 50px;
@@ -181,6 +186,7 @@ ul {
 .hero-button {
   color: var(--accent-color-text);
   background-color: var(--accent-color);
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -393,7 +399,7 @@ ul {
   padding-bottom: 60px;
   background-color: var(--background-color);
 }
-.f-logo-first {
+.f-logo-web {
   color: var(--accent-color);
   font-family: Raleway;
   font-weight: 700;
@@ -402,7 +408,7 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.f-logo-second {
+.f-logo-studio {
   color: var(--accent-color-text);
   font-family: Raleway;
   font-weight: 700;
