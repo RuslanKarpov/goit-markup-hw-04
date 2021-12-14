@@ -129,6 +129,19 @@ ul {
   display: flex;
   margin-left: auto;
 }
+/* .item::before {
+  display: block;
+  margin-right: 30px;
+  content: '';
+  height: 20px;
+  /* outline: 1px solid red; */
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: 1px solid green;
+}
+.feature-item:nth-child(1)::before {
+  background-image: url(../images/features-images/Vector1.svg);
+} */
 .contact-nav .link {
   display: block;
   cursor: pointer;
@@ -440,4 +453,20 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+
+.one{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  outline: 1px solid green;
+  list-style: none;
+}
+.one button{
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  background-image: url(../images/footer-networks/instagramm.svg);
 }
