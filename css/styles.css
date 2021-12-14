@@ -129,6 +129,20 @@ ul {
   display: flex;
   margin-left: auto;
 }
+.contact-nav-icon-f{
+  width: 16px;
+  height: 12px;
+  margin-right: 100px;
+}
+.contact-nav-icon-f::before{
+  
+  content: ;
+}
+.contact-nav-icon-s{
+  width: 10px;
+  height: 16px;
+  margin-right: 100px;
+}
 /* .item::before {
   display: block;
   margin-right: 30px;
@@ -455,7 +469,7 @@ ul {
   text-decoration: none;
 }
 
-.one{
+/* .one{
   display: flex;
   padding: 0;
   margin: 0;
@@ -469,4 +483,4 @@ ul {
   padding: 0;
   border: 0;
   background-image: url(../images/footer-networks/instagramm.svg);
-}
+} */
