@@ -129,71 +129,51 @@ ul {
   display: flex;
   margin-left: auto;
 }
-.contact-nav-icon-f{
-  width: 16px;
-  height: 12px;
-  margin-right: 100px;
-}
-.contact-nav-icon-f::before{
-  
-  content: ;
-}
-.contact-nav-icon-s{
-  width: 10px;
-  height: 16px;
-  margin-right: 100px;
-}
-/* .item::before {
-  display: block;
-  margin-right: 30px;
-  content: '';
-  height: 20px;
-  /* outline: 1px solid red; */
-  background-repeat: no-repeat;
-  background-position: center;
-  outline: 1px solid green;
-}
-.feature-item:nth-child(1)::before {
-  background-image: url(../images/features-images/Vector1.svg);
-} */
-.contact-nav .link {
-  display: block;
-  cursor: pointer;
-}
 .contact-nav .item + .item {
   margin-left: 50px;
 }
+.contact-nav-icon-f {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: rebeccapurple;
+}
+.contact-nav-icon-s {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
 .contacts-link {
+  display: inline-flex;
+  align-items: center;
   color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
+}
+.contact-nav.item:last-child {
+  margin-right: 0;
 }
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
 }
-.contact-nav .nav-tel {
-  color: var(--text-color);
-  text-decoration: none;
-}
-.contact-nav .nav-tel:hover,
-.contact-nav .nav-tel:focus {
-  color: var(--accent-color);
-}
+
 /* Hero */
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  /* width: 1600px;
-  height: 600px; */
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  background-color: var(--background-color);
-  /* background-image: url(../images/hero-image/Img.jpg);
-  background-position: 50% 50%;
-  background-size: cover; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/Head.jpg);
 }
 .hero-title.centered {
   text-align: center;
@@ -232,6 +212,7 @@ ul {
 .section-titles h2 {
   visibility: hidden;
 }
+
 .feature-list {
   display: flex;
 }
@@ -266,6 +247,9 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--backing-color);
+}
+.feature-item:nth-child(1)::before {
+  background-image: url(../images/features-images/Vector1.svg);
 }
 .feature-item:nth-child(1)::before {
   background-image: url(../images/features-images/Vector1.svg);
