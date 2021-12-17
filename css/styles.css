@@ -592,6 +592,10 @@ ul {
   justify-content: center;
   margin-top: 20px;
 }
+.fsocial-icon {
+  width: 20px;
+  height: 20px;
+}
 .fsocial-item {
   width: 44px;
   height: 44px;
