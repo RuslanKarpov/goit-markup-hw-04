@@ -91,6 +91,10 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+.logo-web:hover,
+.logo-web:focus {
+  color: var(--accent-color);
+}
 .logo-studio {
   font-family: Raleway, sans-serif;
   color: var(--titles-text-color-first);
@@ -98,6 +102,10 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+.logo-studio:hover,
+.logo-studio:focus {
+  color: var(--accent-color);
 }
 .nav-box {
   display: flex;
@@ -141,7 +149,7 @@ ul {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: rebeccapurple;
+  fill: currentColor;
 }
 .contact-nav-icon-s {
   width: 10px;
@@ -206,6 +214,11 @@ ul {
   text-decoration: none;
   border-radius: 4px;
   padding: 10px 32px;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--accent-color);
+  background-color: var(--accent-color-text);
 }
 /* Features - Приемущества */
 .hidden {
@@ -499,53 +512,71 @@ ul {
   padding-bottom: 60px;
   background-color: var(--background-color);
 }
-.f-logo-web {
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  color: var(--accent-color-text);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.f-web {
   color: var(--accent-color);
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
-.f-logo-studio {
-  color: var(--accent-color-text);
+.f-webstudio {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
-/* Контакты - contacts */
-.adress {
+.footer-logo:hover,
+.footer-logo:focus {
+  color: var(--accent-color);
+}
+.footer-addres {
+  display: inline-block;
+}
+.address-map {
+  display: inline-block;
   font-style: normal;
   margin-top: 20px;
-}
-/* Footer */
-.logo-footer {
-  display: inline-flex flex;
-  justify-content: center;
-}
-.footer-map {
-  display: inline-block;
-
   color: var(--accent-color-text);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
-.footer-adress {
-  display: inline-block;
-  margin-top: 9px;
-  display: block;
+.contacts {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
+
+.footer-item {
+  margin-top: 9px;
+}
+
+.address-map:hover,
+.address-map:focus {
+  color: var(--accent-color);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+
 .fsocial-title {
   margin-left: 70px;
 }
