@@ -142,7 +142,7 @@ ul {
   display: flex;
   margin-left: auto;
 }
-. contact-nav .item + .item {
+.contact-nav .item + .item {
   margin-left: 50px;
 }
 .contact-nav-icon-f {
@@ -623,19 +623,3 @@ ul {
 .fsocial-link:focus .fsocial-icon {
   fill: var(--accent-color-text);
 }
-
-/* .one{
-  display: flex;
-  padding: 0;
-  margin: 0;
-  outline: 1px solid green;
-  list-style: none;
-}
-.one button{
-  display: block;
-  width: 40px;
-  height: 40px;
-  padding: 0;
-  border: 0;
-  background-image: url(../images/footer-networks/instagramm.svg);
-} */
