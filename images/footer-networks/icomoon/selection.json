@@ -24,7 +24,7 @@
         }
       ],
       "properties": {
-        "order": 13,
+        "order": 17,
         "id": 3,
         "name": "linkedin4-1",
         "prevSize": 32
@@ -56,7 +56,7 @@
         }
       ],
       "properties": {
-        "order": 14,
+        "order": 18,
         "id": 2,
         "name": "facebook3-1",
         "prevSize": 32
@@ -88,7 +88,7 @@
         }
       ],
       "properties": {
-        "order": 15,
+        "order": 19,
         "id": 1,
         "name": "twitter2-1",
         "prevSize": 32
@@ -127,7 +127,7 @@
         }
       ],
       "properties": {
-        "order": 16,
+        "order": 20,
         "id": 0,
         "name": "instagram1-1",
         "prevSize": 32
