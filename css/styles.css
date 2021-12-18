@@ -3,12 +3,14 @@
   --text-color: #757575;
   --accent-color-text: #ffffff;
   --accent-color: #2196f3;
+  --accent-color-sec: #1a72b9;
   --background-color: #2f303a;
   --logo-color: #000000;
   --backing-color: #f5f4fa;
   --header-color: #ececec;
   --portfolio-color: #e5e5e5;
   --clients-color: #afb1b8;
+
   /* первичный цвет фона - #E5E5E5; */
   /*  вторичный цвет фона - #F5F4FA;*/
   /* основной фон кнопок партфолио #F5F4FA */
@@ -217,8 +219,8 @@ ul {
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--accent-color);
-  background-color: var(--accent-color-text);
+  color: var(--accent-color-text);
+  background-color: var(--accent-color-sec);
 }
 /* Features - Приемущества */
 .hidden {
