@@ -22,9 +22,14 @@ h4,
 h5,
 h6,
 p,
-ul {
+li {
   margin-top: 0;
   margin-bottom: 0;
+}
+ul {
+  margin: 0;
+  list-style: none;
+  padding-inline-start: 0;
 }
 a {
   text-decoration: none;
@@ -239,7 +244,7 @@ ul {
   margin-left: 30px;
 }
 .features-item:first-child {
-  margin-left: 0;
+  margin-right: 0;
 }
 .feature-title {
   color: var(--titles-text-color-first);
@@ -262,10 +267,10 @@ ul {
   align-items: center;
   width: 270px;
   height: 120px;
-  background-color: #f5f4fa;
+  background-color: var(--backing-color);
   margin-bottom: 30px;
 }
-.icon {
+.feature-icon .icon {
   width: 70px;
   height: 70px;
 }
@@ -474,6 +479,7 @@ ul {
 .client-list {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 .client-item {
   width: 170px;
