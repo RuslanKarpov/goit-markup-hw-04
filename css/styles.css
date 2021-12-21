@@ -21,8 +21,7 @@ h3,
 h4,
 h5,
 h6,
-p,
-li {
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -241,7 +240,7 @@ ul {
   display: flex;
 }
 
-.features-item:not(first-child) {
+.feature-item:not(first-child) {
   margin-right: 30px;
 }
 .feature-title {
@@ -425,8 +424,8 @@ ul {
   width: 370px;
   display: block;
 }
-.portfolio-image:hover,
-.portfolio-image:focus {
+.portfolio-img:hover,
+.portfolio-img:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
